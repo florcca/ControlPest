@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Export</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>1</td>
+			<td>name</td>
+			<td>apellidos</td>
+			<td>edad</td>
+			<td>numero</td>
+			<td>numero_emg</td>
+			<td>domicilio</td>
+			<td>email</td>
+			<td>password</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>name</td>
+			<td>apellidos</td>
+			<td>edad</td>
+			<td>numero</td>
+			<td>numero_emg</td>
+			<td>domicilio</td>
+			<td>email</td>
+			<td>password</td>
+		</tr>		
+		<tr>
+			<td>3</td>
+			<td>Chihias</td>
+			<td>apellidos</td>
+			<td>edad</td>
+			<td>numero</td>
+			<td>numero_emg</td>
+			<td>domicilio</td>
+			<td>email</td>
+			<td>password</td>
+		</tr>
+	</table>
+</body>
+</html>
