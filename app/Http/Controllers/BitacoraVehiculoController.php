@@ -26,7 +26,7 @@ class BitacoraVehiculoController extends Controller
     }
 
     public function indexxx()
-    { 
+    {   
         $bita_veh = bita_vehiculo::all();
         return view('Rendimiento-Combustible.indexxx')->with('bita_veh',$bita_veh);
     }

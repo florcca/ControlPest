@@ -31,7 +31,7 @@ Bitácora por vehículo
   <div>
     <div class="container">
       <div class="row">
-
+ 
         <div class="col-md-10 col-md-offset-1">
 
           <div class="panel panel-default panel-table">
@@ -43,7 +43,7 @@ Bitácora por vehículo
                 </div>
                 <div class="col col-xs-6 text-right">
        <a class ="btn btn-sm btn-primary btn-create" href="{{ route('bitacoravehiculo.show',['id_vehiculo'=>$id_vehiculo])}}"><em class="glyphicon glyphicon-list-alt"></em>   Nuevo Registro</a>
-       <a class ="btn btn-sm btn-success btn-create" href="{{ route('BuscarRegistroXvehiculo.indexx')}}"><em class="glyphicon glyphicon-search"></em>  Buscar registros</a>
+       <a class ="btn btn-sm btn-success btn-create" href="{{ route('BuscarRegistroXvehiculo.indexxx')}}"><em class="glyphicon glyphicon-search"></em>  Buscar registros</a>
      </div>
    </div>
  </div>

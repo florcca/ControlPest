@@ -106,7 +106,7 @@ Route::resource('nuevovehi','NuevoVehiculoController');
 
 Route::get('BuscarVehiculo',['uses'=>'NuevoVehiculoController@indexx','as'=>'nuevovehi.buscarvehiculo']);
 
-
+ 
 Route::get('BitacoraXVehiculo/{id}',['uses'=>'NuevoVehiculoController@regBitaVehi','as'=>'nuevovehi.regBitaVehi']);
 
 Route::get('CrearRC',['uses'=>'NuevoVehiculoController@CrearRC','as'=>'nuevovehi.CrearRC']);
@@ -115,7 +115,7 @@ Route::get('buscarBitacoraVehiculo',['uses'=> 'NuevoVehiculoController@buscarBit
 
 Route::resource('bitacoravehiculo','BitacoraVehiculoController');
 Route::post('bitacoravehiculoo/{id_vehiculo}',['uses'=>'BitacoraVehiculoController@nuevoparavehiculo','as'=>'nuevo.paravehiculo']);
-Route::get('BuscarRegisVehiculo',['uses'=>'BitacoraVehiculoController@indexx','as'=>'BuscarRegistroXvehiculo.indexx']);
+Route::get('BuscarRegisVehiculo',['uses'=>'BitacoraVehiculoController@indexxx','as'=>'BuscarRegistroXvehiculo.indexxx']);
 
 
 
